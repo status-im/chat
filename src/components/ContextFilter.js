@@ -7,6 +7,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
+import AddCircle from '@material-ui/icons/AddCircle';
 
 class ContextFilter extends React.Component {
   state = {
@@ -28,25 +29,25 @@ class ContextFilter extends React.Component {
       <Fragment>
         <span onClick={this.handleClickOpen} style={{"color": "#CAC4C9", "cursor": "pointer"}}>
           <span style={{"width": "90%", "display": "inline-block", "verticalAlign": "top"}}>{name}</span>
-          <span className="material-icons MuiIcon-root-4 Icons-icon-2" style={{"display": "inline-block", "position": "relative", "width": "21px"}} aria-hidden="true">add_circle2</span>
+          <AddCircle />
         </span>
         <Formik
           initialValues={{ channel: '' }}
           onSubmit={(values, { setSubmitting, resetForm }) => {
-              const { channel } = values;
-              joinConversation(channel);
-              resetForm();
-              setSubmitting(false);
-              this.handleClose();
+            const { channel } = values;
+            joinConversation(channel);
+            resetForm();
+            setSubmitting(false);
+            this.handleClose();
           }}
         >
           {({
-             values,
-             errors,
-             touched,
-             handleChange,
-             handleBlur,
-             handleSubmit
+            values,
+            errors,
+            touched,
+            handleChange,
+            handleBlur,
+            handleSubmit
           }) => (
             <Dialog
               open={open}
