@@ -9794,6 +9794,38 @@ libp2p-webrtc-star@~0.15.3, libp2p-webrtc-star@~0.15.5:
     stream-to-pull-stream "^1.7.2"
     webrtcsupport "github:ipfs/webrtcsupport"
 
+libp2p-websocket-star-multi@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/libp2p-websocket-star-multi/-/libp2p-websocket-star-multi-0.4.3.tgz#28d5aa4efffb7cf14ac147fc927841a5e275cfd7"
+  integrity sha512-AhiBQABPw0uCRX4T1XzixRvCRXIq3k/IqrXcdRLgBZ8Yi6SXl0l7YwfAv5bO4fjq+jJTj2ypPvyM16ftNnWqBw==
+  dependencies:
+    async "^2.6.1"
+    debug "^4.1.0"
+    libp2p-websocket-star "~0.10.2"
+    mafmt "^6.0.2"
+    multiaddr "^6.0.3"
+    once "^1.4.0"
+
+libp2p-websocket-star@~0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/libp2p-websocket-star/-/libp2p-websocket-star-0.10.2.tgz#74df4c651292bf64307d1198746e249827041ea5"
+  integrity sha512-ccjMqy7lrKV6vbTdsm9XOZ+eWt01ZCS3hI2s+I+ZpglnPQNg8z+dGs+8rdl8/hU44Sq3EbmUw0gCxPB/2ZbPlg==
+  dependencies:
+    async "^2.6.1"
+    class-is "^1.1.0"
+    debug "^4.1.1"
+    interface-connection "~0.3.2"
+    libp2p-crypto "~0.16.0"
+    mafmt "^6.0.4"
+    multiaddr "^6.0.3"
+    nanoid "^2.0.0"
+    once "^1.4.0"
+    peer-id "~0.12.2"
+    peer-info "~0.15.1"
+    pull-stream "^3.6.9"
+    socket.io-client "^2.1.1"
+    socket.io-pull-stream "~0.1.5"
+
 libp2p-websocket-star@~0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/libp2p-websocket-star/-/libp2p-websocket-star-0.8.1.tgz#45203a0384c3cc95c3754ef960c92a708ab076e3"
@@ -10875,10 +10907,10 @@ multistream-select@^0.14.1, multistream-select@~0.14.3, multistream-select@~0.14
     semver "^5.5.0"
     varint "^5.0.0"
 
-murmur-client@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/murmur-client/-/murmur-client-0.2.0.tgz#b4e041a64f23f748e5e824267e91cfbd91988a59"
-  integrity sha512-CVw6TTPe5N1G0u8vkzflDvG1EpWsTClegcmf7q214TgcFK2Zg5ELQ2qdKw2wQq46VVIO/wtmbX6mErH3F/Qzcg==
+murmur-client@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/murmur-client/-/murmur-client-0.2.4.tgz#fa8b8681451b92a74b7262faf445ceb7744933f5"
+  integrity sha512-nE4aOK+F4w5o8kgGhEjYthYqCgrJh7w+gydNXqDk4/loAO1STvbqAUboEXnT6w9PeqUONpgtPk0k3ZhQ8P1xtQ==
   dependencies:
     "@nodeutils/defaults-deep" "^1.1.0"
     async "^2.6.1"
@@ -10908,6 +10940,7 @@ murmur-client@^0.2.0:
     libp2p-tcp "^0.13.0"
     libp2p-webrtc-star "~0.15.3"
     libp2p-websocket-star "~0.8.1"
+    libp2p-websocket-star-multi "^0.4.3"
     libp2p-websockets "~0.12.0"
     lru-cache "^4.1.5"
     ms "^2.1.1"
@@ -13057,7 +13090,7 @@ pull-write@^1.1.4:
     pull-cat "^1.1.11"
     pull-stream "^3.4.5"
 
-"pull-ws@github:hugomrdias/pull-ws#fix/bundle-size":
+pull-ws@hugomrdias/pull-ws#fix/bundle-size:
   version "3.3.1"
   resolved "https://codeload.github.com/hugomrdias/pull-ws/tar.gz/8e2ce0bb3b1cd6804828316e937fff8e0bef6225"
   dependencies:
@@ -14849,10 +14882,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-status-js-api@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/status-js-api/-/status-js-api-1.1.7.tgz#72629ec90c7b2d03d8f4c59a6f91d156e2d35da5"
-  integrity sha512-2HqGVc18rKaE2qGA/0E9lr0/uaqaCjK6Kk/ULkYKHyBSqoIgz1MWKn8hBepkR1PW2Hpx2CVmo9jM9zQCifj2MQ==
+status-js-api@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/status-js-api/-/status-js-api-1.2.4.tgz#f45df94d024c5c5911d730919b4a2de5fed3204c"
+  integrity sha512-1JT1Io6OG16yGqDc+nep9kMjp3sqYCEkjDYokGhryDipPYaPxcLyuxJKIut//7bnoF3NJJUissfiAsQytfOOkQ==
   dependencies:
     bip39 "^2.5.0"
     chance "^1.0.16"

@@ -54,7 +54,8 @@ export default class Home extends PureComponent<Props> {
   connect = async (account) => {
     if (!account) {
       this.setState({ loading: true });
-      status.connectToProvider(this.server.provider);
+      console.log({status}, status.connectToProvider)
+      status.connectToProvider(this.server.provider, null);
       return this.onConnect();
     }
 
@@ -64,9 +65,13 @@ export default class Home extends PureComponent<Props> {
   };
 
   connectMurMur() {
+    console.log({Murmur})
     this.server = new Murmur({
       protocols: ["libp2p"],
-      signalServer: { host: '104.248.64.24', port: '9090', protocol: 'ws' },
+      // signalServer: { host: '104.248.64.24', port: '9090', protocol: 'ws' },
+      signalServers: [
+        "/dns4/104.248.64.24/tcp/9090/ws/p2p-webrtc-star"
+      ],
       bootnodes: []
     });
     this.server.start();
