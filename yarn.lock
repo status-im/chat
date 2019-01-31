@@ -10994,10 +10994,10 @@ multistream-select@^0.14.1, multistream-select@~0.14.3, multistream-select@~0.14
     semver "^5.5.0"
     varint "^5.0.0"
 
-murmur-client@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/murmur-client/-/murmur-client-0.2.4.tgz#fa8b8681451b92a74b7262faf445ceb7744933f5"
-  integrity sha512-nE4aOK+F4w5o8kgGhEjYthYqCgrJh7w+gydNXqDk4/loAO1STvbqAUboEXnT6w9PeqUONpgtPk0k3ZhQ8P1xtQ==
+murmur-client@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/murmur-client/-/murmur-client-0.2.5.tgz#a855b93892ba77820997011bcdb234d6cdbec3e5"
+  integrity sha512-sZmA8+wH5I9A/flbN7452IQphsRNdLbhuG/ocZydRBa1ggJ50QGr3IY14lW2piyOwobrrTqiD5ui38rxM1oyEg==
   dependencies:
     "@nodeutils/defaults-deep" "^1.1.0"
     async "^2.6.1"

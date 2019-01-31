@@ -54,7 +54,6 @@ export default class Home extends PureComponent<Props> {
   connect = async (account) => {
     if (!account) {
       this.setState({ loading: true });
-      console.log({status}, status.connectToProvider)
       status.connectToProvider(this.server.provider, null);
       return this.onConnect();
     }
@@ -65,7 +64,6 @@ export default class Home extends PureComponent<Props> {
   };
 
   connectMurMur() {
-    console.log({Murmur})
     this.server = new Murmur({
       protocols: ["libp2p"],
       // signalServer: { host: '104.248.64.24', port: '9090', protocol: 'ws' },

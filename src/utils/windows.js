@@ -3,9 +3,10 @@ export const openBrowserWindow = url => {
 }
 
 export const addWindowEventListeners = (sendMessage) => {
+  const verbose = window.statusVerbose
   window.addEventListener('message', function (msg) {
-    console.log('message', msg)
-    if (msg.source === window.parent) {
+    if(window.statusVerbose) console.log('message', msg)
+    if (msg.source === window.parent && window.statusVerbose) {
       console.log(msg.data)
     }
 
