@@ -16,8 +16,6 @@ import ChatHeader from './ChatHeader';
 import Userlist from './Userlist';
 import { uploadFileAndSend } from '../utils/ipfs';
 
-import 'emoji-mart/css/emoji-mart.css';
-
 class WhoIsTyping extends PureComponent {
 
   whoIsTyping() {
