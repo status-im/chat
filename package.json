@@ -2,6 +2,7 @@
   "name": "status-js-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@areknawo/rex": "^2.0.0",
     "@babel/runtime-corejs2": "^7.3.1",
