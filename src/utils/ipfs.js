@@ -1,7 +1,7 @@
-import fs from 'fs';
+import fileReaderPullStream from 'pull-file-reader'
 
 export const fileUpload = (node, filePath) => {
-  const file = fs.readFileSync(filePath);
+  const file = fileReaderPullStream(filePath)
   return new Promise(function(resolve, reject) {
     node.files.add(file, (err, files) => {
       if (err) return reject(err)
@@ -12,7 +12,7 @@ export const fileUpload = (node, filePath) => {
 
 export const uploadFileAndSend = async (node, file, sendFn) => {
   const { name, path, type } = file;
-  const files = await fileUpload(node, path);
+  const files = await fileUpload(node, file);
   const { hash } = files[0];
   const text = `/ipfs/${hash}`;
   sendFn(text);

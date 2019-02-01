@@ -9,7 +9,9 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Dropzone from 'react-dropzone';
 import { Picker } from 'emoji-mart';
-import AddCircle from '@material-ui/icons/AddCircle'
+import AddCircle from '@material-ui/icons/AddCircle';
+
+import 'emoji-mart/css/emoji-mart.css';
 
 import ChatBox from './ChatBox';
 import ChatHeader from './ChatHeader';
@@ -92,7 +94,6 @@ class ChatRoom extends Component {
   fileChangedHandler(event) {
     const { ipfs, sendMessage } = this.props;
     const file = event.target.files[0];
-    console.dir("handling file upload");
     uploadFileAndSend(ipfs, file, sendMessage);
   }
 

@@ -13067,6 +13067,13 @@ pull-defer@^0.2.3, pull-defer@~0.2.2, pull-defer@~0.2.3:
   resolved "https://registry.yarnpkg.com/pull-defer/-/pull-defer-0.2.3.tgz#4ee09c6d9e227bede9938db80391c3dac489d113"
   integrity sha512-/An3KE7mVjZCqNhZsr22k1Tx8MACnUnHZZNPSJ0S62td8JtYr/AiRG42Vz7Syu31SoTLUzVIe61jtT/pNdjVYA==
 
+pull-file-reader@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/pull-file-reader/-/pull-file-reader-1.0.2.tgz#d9b0d3d2de56f1a1ebb2ce8d313e79567d92dc48"
+  integrity sha1-2bDT0t5W8aHrss6NMT55Vn2S3Eg=
+  dependencies:
+    typedarray-to-buffer "^3.1.2"
+
 pull-file@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pull-file/-/pull-file-1.1.0.tgz#1dd987605d6357a0d23c1e4b826f7915a215129c"
