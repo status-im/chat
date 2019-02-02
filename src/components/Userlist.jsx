@@ -2,7 +2,6 @@
 //  so stuff like sortUsers, heartBeat & forceUpdate, etc.. will be removed
 import React, { PureComponent } from 'react';
 import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
 import { ChatContext } from '../context';
 
 import User from './User';

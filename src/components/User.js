@@ -1,11 +1,8 @@
 import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
-import Avatar from '@material-ui/core/Avatar';
 import FiberManualRecord from '@material-ui/icons/FiberManualRecord';
 import FiberManualRecordOutlined from '@material-ui/icons/FiberManualRecordOutlined';
-import Jazzicon, { jsNumberForAddress } from 'react-jazzicon'
 import Tooltip from '@material-ui/core/Tooltip';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 import green from '@material-ui/core/colors/green';

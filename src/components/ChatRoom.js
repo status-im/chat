@@ -1,5 +1,5 @@
 // @flow
-import React, { Fragment, Component, PureComponent, createRef } from 'react';
+import React, { Fragment, Component, createRef } from 'react';
 import { Formik } from 'formik';
 import autoscroll from 'autoscroll-react';
 import List from '@material-ui/core/List';
