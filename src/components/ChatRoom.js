@@ -13,7 +13,7 @@ import AddCircle from '@material-ui/icons/AddCircle';
 
 import 'emoji-mart/css/emoji-mart.css';
 
-import ChatBox from './ChatBox';
+import Message from './Message';
 import ChatHeader from './ChatHeader';
 import Userlist from './Userlist';
 import { uploadFileAndSend } from '../utils/ipfs';
@@ -144,7 +144,7 @@ class ChatRoom extends Component {
                   <AutoScrollList style={{ height: messagesHeight, overflow: 'scroll' }}>
                     {messages[currentChannel] && messages[currentChannel].map((message) => (
                       <Fragment key={message.data.payload}>
-                        <ChatBox {...message} ipfs={ipfs}/>
+                        <Message {...message} ipfs={ipfs}/>
                         <li>
                           <Divider/>
                         </li>
