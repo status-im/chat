@@ -1,6 +1,4 @@
 export default class Store {
-  constructor(opts) {}
-
   get(key) {
     return localStorage.getItem(key);
   }

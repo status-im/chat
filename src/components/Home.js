@@ -3,7 +3,6 @@ import React, { PureComponent, Fragment } from 'react';
 import StatusJS from 'status-js-api';
 import Murmur from 'murmur-client';
 import IPFS from 'ipfs';
-import uuid from 'uuid/v4';
 import { isNil } from 'lodash';
 import Grid from '@material-ui/core/Grid';
 import ChatRoom from './ChatRoom';

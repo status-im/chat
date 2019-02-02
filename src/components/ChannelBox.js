@@ -7,7 +7,7 @@ import { ChatContext } from '../context';
 const ChannelBox = ({ channelName, message }) => (
   <ChatContext.Consumer>
     {({ setActiveChannel, currentChannel, channels }) =>
-      <ListItem onClick={() => setActiveChannel(channelName)} selected={currentChannel == channelName} style={{"cursor": "pointer", "padding": "0px 2px"}}>
+      <ListItem onClick={() => setActiveChannel(channelName)} selected={currentChannel === channelName} style={{"cursor": "pointer", "padding": "0px 2px"}}>
         <ListItemText primary={
           <span style={{"color": "white"}}>
             {channels[channelName].username ? `${channels[channelName].username}` : `#${channelName}`}

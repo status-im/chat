@@ -4,7 +4,7 @@ import Store from './store';
 const store = new Store({ configName: 'keyManagement', defaults: { vault: null } });
 export const createVault = async (password, mnemonic) => {
   const keyRingController = new KeyringController({});
-  const controller = await keyRingController.createNewVaultAndRestore(password, mnemonic);
+  await keyRingController.createNewVaultAndRestore(password, mnemonic);
   const vault = keyRingController.store.getState();
   storeKeyData(JSON.stringify(vault));
   return keyRingController;
@@ -15,7 +15,7 @@ export const restoreVault = async (password) => {
   const keyRingController = new KeyringController({
     initState: keyStore
   });
-  const controller = await keyRingController.submitPassword(password);
+  await keyRingController.submitPassword(password);
   return keyRingController;
 }
 

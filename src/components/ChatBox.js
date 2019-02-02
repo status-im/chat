@@ -51,7 +51,7 @@ function displayImage(text) {
   let reg = new RegExp(/\b(https?:\/\/\S+(?:png|jpe?g|gif)\S*)\b/);
   let imageUrl = reg.exec(text);
   if (!imageUrl) return (<span></span>);
-  return (<img src={imageUrl[0]} style={{maxWidth: '90%'}} />)
+  return (<img src={imageUrl[0]} alt="" style={{maxWidth: '90%'}} />)
 }
 
 // TODO use regex for code parsing / detection. Add new line detection for shift+enter
