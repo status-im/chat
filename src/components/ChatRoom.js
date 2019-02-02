@@ -5,9 +5,7 @@ import autoscroll from 'autoscroll-react';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
 import Dropzone from 'react-dropzone';
-import AddCircle from '@material-ui/icons/AddCircle';
 
 import Message from './Message';
 import ChatHeader from './ChatHeader';
@@ -15,6 +13,7 @@ import Userlist from './Userlist';
 import WhoIsTyping from './WhoIsTyping';
 import EmojiPicker from './chatInput/EmojiPicker';
 import ChatTextInput from './chatInput/ChatTextInput';
+import FileUploadButton from './chatInput/FileUploadButton';
 import { uploadFileAndSend } from '../utils/ipfs';
 
 function onDrop(acceptedFiles, rejectedFiles, ipfs, sendMessage) {
@@ -54,16 +53,6 @@ class ChatRoom extends Component {
     this.setState({ infoPanelActive: !this.state.infoPanelActive })
   }
 
-  uploadFileDialog() {
-    this.fileInput.click();
-  }
-
-  fileChangedHandler(event) {
-    const { ipfs, sendMessage } = this.props;
-    const file = event.target.files[0];
-    uploadFileAndSend(ipfs, file, sendMessage);
-  }
-
   addEmoji(emoji, chatInput, setValue) {
     setValue('chatInput', `${chatInput}:${emoji.id}:`);
     NameInput.current.labelNode.focus();
@@ -75,12 +64,6 @@ class ChatRoom extends Component {
     const messagesHeight = `calc(100vh - ${messagesOffset}px)`;
     return (
       <div style={{ width: '100%', flexWrap: 'nowrap', display: 'flex', boxSizing: 'border-box' }} >
-        <input
-          type="file"
-          ref={(input) => { this.fileInput = input; }}
-          onChange={this.fileChangedHandler.bind(this)}
-          style={{display: 'none'}}
-        />
         <Grid xs={12} item>
           <Dropzone
             onDrop={(a, r) => {
@@ -135,7 +118,7 @@ class ChatRoom extends Component {
                     }) => (
                       <div className="chat-input">
                         <form onSubmit={handleSubmit} style={formStyle} ref={ChatRoomForm}>
-                          <Button onClick={(e) => this.uploadFileDialog()}><AddCircle /></Button>
+                          <FileUploadButton ipfs={ipfs} sendMessage={sendMessage} />
                           <ChatTextInput ref={NameInput} handleChange={handleChange} handleTyping={(e) => keyDownHandler(e, typingEvent, setFieldValue, values.chatInput)} handleBlur={handleBlur} chatInput={values.chatInput || ''} />
                           <EmojiPicker addEmoji={(emoji) => this.addEmoji(emoji, values.chatInput, setFieldValue)} />
                           {errors.chatInput && touched.chatInput && errors.chatInput}
