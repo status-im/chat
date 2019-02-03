@@ -11,7 +11,6 @@ export const fileUpload = (node, filePath) => {
 }
 
 export const uploadFileAndSend = async (node, file, sendFn) => {
-  const { name, path, type } = file;
   const files = await fileUpload(node, file);
   const { hash } = files[0];
   const text = `/ipfs/${hash}`;

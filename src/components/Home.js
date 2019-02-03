@@ -3,7 +3,6 @@ import React, { PureComponent, Fragment } from 'react';
 import StatusJS from 'status-js-api';
 import Murmur from 'murmur-client';
 import IPFS from 'ipfs';
-import uuid from 'uuid/v4';
 import { isNil } from 'lodash';
 import Grid from '@material-ui/core/Grid';
 import ChatRoom from './ChatRoom';
@@ -293,13 +292,13 @@ export default class Home extends PureComponent<Props> {
                 keyStore={keyStore}
                 wipeKeyStore={wipeKeyStore} />
             : <div style={{ width: '100%', flexWrap: 'nowrap', display: 'flex', boxSizing: 'border-box' }} >
-              <Grid item xs={3}>
+              <Grid item xs={2}>
                 {!isNil(channels) &&
                   <ContextPanel
                     channels={channels}
                     joinConversation={this.joinConversation} />}
               </Grid>
-              <Grid item xs={9}>
+              <Grid item xs={10}>
                   <ChatRoom
                     messages={messages}
                     sendMessage={this.sendMessage}
