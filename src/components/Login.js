@@ -22,6 +22,7 @@ const Login = ({ setupKeyringController, keyStore, wipeKeyStore, connect }) => (
     direction="column"
     style={{ height: '100%' }}
   >
+
     <Formik
       initialValues={{ password: '', seed: '' }}
   onSubmit={(values, { resetForm, setFieldError }) => {
@@ -42,6 +43,20 @@ const Login = ({ setupKeyringController, keyStore, wipeKeyStore, connect }) => (
       }) => (
         <form onSubmit={handleSubmit} style={containerStyle}>
           <StatusJSLogo />
+
+          <div>
+          <strong>Note: This is a proof of concept, and an alpha version. There will be bugs. If you you're looking for something more stable try the <a href="https://status.im/get_desktop/">status desktop app</a>.</strong>
+          <br />known issues:
+          <br />- Desktop <strong>Chrome</strong> only for now. There is an UI issue in firefox which causes the page to reload.
+          <br />- Reportedly works on android mobile browsers but not on ios (to be confirmed). In theory it should work on any webrtc enabled browser.
+          <br />- Direct chats and chat history is currently disabled.
+          </div>
+
+          <Button size="large" variant="outlined" color="primary" onClick={() => connect()}>
+            USE A ONE TIME RANDOM ACCOUNT (Recommended)
+          </Button>
+
+          <div> or for dev purposes:</div>
           {isNull(keyStore) && <TextField
                                  id="seed"
                                  type="text"
@@ -68,9 +83,6 @@ const Login = ({ setupKeyringController, keyStore, wipeKeyStore, connect }) => (
             onBlur={handleBlur}
             onChange={handleChange}
           />
-          <Button size="large" variant="outlined" color="primary" onClick={() => connect()}>
-            USE A ONE TIME RANDOM ACCOUNT
-          </Button>
           {!isNull(keyStore) && <Button size="large" variant="outlined" color="secondary" onClick={wipeKeyStore}>
             RESET ACCOUNT
           </Button>}

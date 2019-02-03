@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Status Web Chat
+
+[Click here to access status-web](https://status-im.github.io/chat/build/). note that no plugins are required, just a compatible browser. Currently recommended is Chrome.
+
+**Note: This is a proof of concept, and an alpha version. There will be bugs. If you you're looking for something more stable try the [status desktop app](https://status.im/get_desktop/).**
+
+known issues:
+- Desktop *Chrome* only for now. There is an UI issue in firefox which causes the page to reload.
+- Reportedly works on android mobile browsers but not on ios (to be confirmed). In theory it should work on any webrtc enabled browser.
+- Direct chats and chat history is currently disabled.
+
+what you can do:
+- Join other status channels, this bridges with devp2p network.
+- see who is online in the channel (applicable to other status-web users)
+- see who is typing in the channel (applicable to other status-web users)
+- see previews for images, spotify (e.g `spotify:track:0vnfZAVW1Suiet6wtUMdg9`)
+- code formatting(e.g ``js` var a = 3;``)
+- upload files
+- emojis support
 
 ## Available Scripts
 
