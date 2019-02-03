@@ -19,7 +19,7 @@ import { openBrowserWindow, addWindowEventListeners } from '../utils/windows';
 const typingNotificationsTimestamp = {};
 
 
-const DEFAULT_CHANNEL = "mytest";
+const DEFAULT_CHANNEL = "status-js";
 const URL = "ws://localhost:8546";
 const status = new StatusJS();
 
