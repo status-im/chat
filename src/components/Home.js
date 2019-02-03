@@ -293,13 +293,13 @@ export default class Home extends PureComponent<Props> {
                 keyStore={keyStore}
                 wipeKeyStore={wipeKeyStore} />
             : <div style={{ width: '100%', flexWrap: 'nowrap', display: 'flex', boxSizing: 'border-box' }} >
-              <Grid item xs={3}>
+              <Grid item xs={2}>
                 {!isNil(channels) &&
                   <ContextPanel
                     channels={channels}
                     joinConversation={this.joinConversation} />}
               </Grid>
-              <Grid item xs={9}>
+              <Grid item xs={10}>
                   <ChatRoom
                     messages={messages}
                     sendMessage={this.sendMessage}
