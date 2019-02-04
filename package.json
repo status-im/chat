@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@areknawo/rex": "^2.0.0",
+    "@babel/runtime-corejs2": "^7.3.1",
     "@material-ui/core": "^3.5.1",
     "@material-ui/icons": "^3.0.1",
     "@types/jest": "^23.3.13",
