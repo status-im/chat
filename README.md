@@ -1,12 +1,12 @@
 ## Status Web Chat
 
-[Click here to access status-web](https://status-im.github.io/chat/build/). note that no plugins are required, just a compatible browser. Currently recommended is Chrome.
+[Click here to access status-web](https://status-im.github.io/chat/build/). note that no plugins are required, just a compatible browser. Currently recommended are Chrome and
+Firefox.
 
 **Note: This is a proof of concept, and an alpha version. There will be bugs. If you you're looking for something more stable try the [status desktop app](https://status.im/get_desktop/).**
 
 known issues:
-- Desktop *Chrome* only for now. There is an UI issue in firefox which causes the page to reload.
-- Reportedly works on android mobile browsers but not on ios (to be confirmed). In theory it should work on any webrtc enabled browser.
+- Only tested in CHrome & Firefox. Reportedly works on android mobile browsers but not on ios (to be confirmed). In theory it should work on any webrtc enabled browser.
 - Direct chats and chat history is currently disabled.
 
 what you can do:

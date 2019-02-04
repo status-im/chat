@@ -45,10 +45,10 @@ const Login = ({ setupKeyringController, keyStore, wipeKeyStore, connect }) => (
           <StatusJSLogo />
 
           <div>
-          <strong>Note: This is a proof of concept, and an alpha version. There will be bugs. If you you're looking for something more stable try the <a href="https://status.im/get_desktop/">status desktop app</a>.</strong>
+          note that no plugins are required, just a compatible browser. Currently recommended are Chrome and Firefox.<br />
+          <strong>Note: This is a proof of concept, and an alpha version. There will be bugs. If you're looking for something more stable try the <a target="_blank" href="https://status.im/get_desktop/">status desktop app</a>.</strong>
           <br />known issues:
-          <br />- Desktop <strong>Chrome</strong> only for now. There is an UI issue in firefox which causes the page to reload.
-          <br />- Reportedly works on android mobile browsers but not on ios (to be confirmed). In theory it should work on any webrtc enabled browser.
+          <br />- Only tested in Chrome & Firefox. Reportedly works on android mobile browsers but not on ios (to be confirmed). In theory it should work on any webrtc enabled browser.
           <br />- Direct chats and chat history is currently disabled.
           </div>
 
