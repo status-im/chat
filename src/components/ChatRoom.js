@@ -60,7 +60,7 @@ const keyDownHandler = (e, typingEvent, setValue, value) => {
   else if (e.keyCode === 13) {
     e.preventDefault();
     const form = ChatRoomForm.current;
-    form.dispatchEvent(new Event("submit"));
+    form.submitForm();
   }
   typingEvent(e)
 };
@@ -152,6 +152,7 @@ class ChatRoom extends Component {
                     ))}
                   </AutoScrollList>
                   <Formik
+                    ref={ChatRoomForm}
                     initialValues={{ chatInput: '' }}
                     onSubmit={(values, { setSubmitting, resetForm }) => {
                       const { chatInput } = values;
@@ -170,7 +171,7 @@ class ChatRoom extends Component {
                        setFieldValue
                     }) => (
                       <div className="chat-input">
-                        <form onSubmit={handleSubmit} style={formStyle} ref={ChatRoomForm}>
+                        <form onSubmit={handleSubmit} style={formStyle}>
                           <Button onClick={(e) => this.uploadFileDialog()}><AddCircle /></Button>
                           <TextField
                             id="chatInput"
