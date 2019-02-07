@@ -68,7 +68,7 @@ export default class Home extends PureComponent<Props> {
       protocols: ["libp2p"],
       // signalServer: { host: '104.248.64.24', port: '9090', protocol: 'ws' },
       signalServers: [
-        "/dns4/104.248.64.24/tcp/9090/ws/p2p-webrtc-star"
+        "/dns4/web-bridge.status.im/tcp/443/wss/p2p-webrtc-star"
       ],
       bootnodes: []
     });
