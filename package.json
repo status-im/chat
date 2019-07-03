@@ -33,14 +33,17 @@
     "react-youtube": "^7.8.0",
     "status-js-api": "^1.2.6",
     "typescript": "^3.2.4",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-opt": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +53,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
