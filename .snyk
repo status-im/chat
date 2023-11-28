@@ -1,0 +1,918 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > babel-preset-react-app > @babel/core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-preset-react-app > @babel/core > lodash
+    - ipfs > libp2p-record > multihashing-async > async > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: ipfs > libp2p-record > multihashing-async > async > lodash
+    - murmur-client > web3 > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-core > web3-utils > lodash
+    - status-js-api > web3 > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-core > web3-utils > lodash
+    - murmur-client > web3 > web3-net > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-net > web3-utils > lodash
+    - status-js-api > web3 > web3-net > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-net > web3-utils > lodash
+    - murmur-client > web3 > web3-eth-personal > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth-personal > web3-utils > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth-personal > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-utils > lodash
+    - status-js-api > web3 > web3-shh > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-utils > lodash
+    - murmur-client > web3 > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-net > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-net > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth-personal > web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-core-helpers > lodash
+    - murmur-client > web3 > web3-shh > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-shh > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-shh > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-shh > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-core-subscriptions > lodash
+    - murmur-client > web3 > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-net > web3-providers > lodash
+    - status-js-api > web3 > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-net > web3-providers > lodash
+    - murmur-client > web3 > web3-eth-personal > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth-personal > web3-providers > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth-personal > web3-providers > lodash
+    - murmur-client > web3 > web3-eth > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-providers > lodash
+    - status-js-api > web3 > web3-eth > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-providers > lodash
+    - murmur-client > web3 > web3-shh > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-shh > web3-providers > lodash
+    - status-js-api > web3 > web3-shh > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-providers > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth-personal > web3-net > lodash
+    - murmur-client > web3 > web3-eth > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-net > lodash
+    - status-js-api > web3 > web3-eth > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-net > lodash
+    - murmur-client > web3 > web3-shh > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-shh > web3-net > lodash
+    - status-js-api > web3 > web3-shh > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-net > lodash
+    - murmur-client > libp2p-kad-dht > libp2p-record > multihashing-async > async > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > libp2p-kad-dht > libp2p-record > multihashing-async >
+          async > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-iban > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-eth-iban > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-iban > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-eth-iban > web3-utils > lodash
+    - murmur-client > web3 > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-net > web3-core-helpers > web3-utils >
+          lodash
+    - status-js-api > web3 > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-net > web3-core-helpers > web3-utils >
+          lodash
+    - murmur-client > web3 > web3-eth-personal > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth-personal > web3-core-helpers >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth-personal > web3-core-helpers >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-core-subscriptions > web3-utils
+          > lodash
+    - status-js-api > web3 > web3-eth > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-core-subscriptions > web3-utils
+          > lodash
+    - murmur-client > web3 > web3-shh > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-shh > web3-core-subscriptions > web3-utils
+          > lodash
+    - status-js-api > web3 > web3-shh > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-shh > web3-core-subscriptions > web3-utils
+          > lodash
+    - murmur-client > web3 > web3-net > web3-core-method > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-net > web3-core-method > web3-utils >
+          lodash
+    - status-js-api > web3 > web3-net > web3-core-method > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-net > web3-core-method > web3-utils >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-abi > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-eth-abi > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-abi > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-eth-abi > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-accounts > web3-utils >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-accounts > web3-utils >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract > web3-utils >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract > web3-utils >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-eth-ens > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-eth-ens > web3-utils > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth-personal > web3-core-method >
+          web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-core-method > web3-core >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-core-method > web3-core >
+          lodash
+    - murmur-client > web3 > web3-shh > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-shh > web3-core-method > web3-core >
+          lodash
+    - status-js-api > web3 > web3-shh > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-shh > web3-core-method > web3-core >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-eth-ens > web3-core > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-eth-ens > web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-core-subscriptions > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-core-subscriptions >
+          web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-core-subscriptions > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-core-subscriptions >
+          web3-core-helpers > lodash
+    - murmur-client > web3 > web3-net > web3-core-method > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-net > web3-core-method > web3-core-helpers
+          > lodash
+    - status-js-api > web3 > web3-net > web3-core-method > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-net > web3-core-method > web3-core-helpers
+          > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-accounts >
+          web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth-personal > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-net > web3-core-helpers >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-net > web3-core-helpers >
+          lodash
+    - murmur-client > web3 > web3-shh > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-shh > web3-net > web3-core-helpers >
+          lodash
+    - status-js-api > web3 > web3-shh > web3-net > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-shh > web3-net > web3-core-helpers >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-helpers >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-helpers >
+          lodash
+    - murmur-client > web3 > web3-net > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-net > web3-core-method >
+          web3-core-subscriptions > lodash
+    - status-js-api > web3 > web3-net > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-net > web3-core-method >
+          web3-core-subscriptions > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-core-subscriptions > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-core-subscriptions > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-abi > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-abi >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-abi > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-abi >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-abi > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-abi > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-abi > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-abi > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-accounts > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-accounts > web3-providers >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-accounts > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-accounts > web3-providers >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract > web3-providers >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract > web3-providers >
+          lodash
+    - murmur-client > web3 > web3-eth-personal > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth-personal > web3-net > web3-providers >
+          lodash
+    - status-js-api > web3 > web3-eth-personal > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth-personal > web3-net > web3-providers >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-net > web3-providers > lodash
+    - status-js-api > web3 > web3-eth > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-net > web3-providers > lodash
+    - murmur-client > web3 > web3-shh > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-shh > web3-net > web3-providers > lodash
+    - status-js-api > web3 > web3-shh > web3-net > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-net > web3-providers > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-providers >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-providers >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-personal > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-personal > web3-providers >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-personal > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-personal > web3-providers >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > web3 > web3-eth > web3-eth-ens > web3-net > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-net > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth > web3-eth-ens > web3-net > lodash
+    - murmur-client > web3 > web3-net > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-net > web3-core-method > web3-core >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-net > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-net > web3-core-method > web3-core >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-eth-personal > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth-personal > web3-core-method >
+          web3-core > web3-utils > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth-personal > web3-core-method >
+          web3-core > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-core-method > web3-core >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-core-method > web3-core >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-shh > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-shh > web3-core-method > web3-core >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-shh > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-shh > web3-core-method > web3-core >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-eth-personal > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > web3-utils > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth-personal > web3-net >
+          web3-core-helpers > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-net > web3-core-helpers >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-net > web3-core-helpers >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-shh > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-shh > web3-net > web3-core-helpers >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-shh > web3-net > web3-core-helpers > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-shh > web3-net > web3-core-helpers >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-net > web3-core-method > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-net > web3-core-method >
+          web3-core-subscriptions > web3-utils > lodash
+    - status-js-api > web3 > web3-net > web3-core-method > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-net > web3-core-method >
+          web3-core-subscriptions > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-core-subscriptions > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-core-subscriptions > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-accounts > web3-core-method
+          > web3-core > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-accounts > web3-core-method
+          > web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-method
+          > web3-core > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-method
+          > web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-core > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-core-subscriptions > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-core-method >
+          web3-core-subscriptions > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-providers > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-providers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-providers > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-parameters > @babel/helper-call-delegate >
+          @babel/traverse > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-transform-parameters > @babel/helper-call-delegate >
+          @babel/traverse > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-accounts > web3-core-method
+          > web3-core > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-accounts > web3-core-method
+          > web3-core > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract > web3-core-method
+          > web3-core > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract > web3-core-method
+          > web3-core > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-utils > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-utils > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-utils > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-core > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-core > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-helpers > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-core-helpers > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-contract >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > lodash
+    - murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          murmur-client > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          status-js-api > web3 > web3-eth > web3-eth-ens > web3-eth-contract >
+          web3-eth-accounts > web3-core-method > web3-core-subscriptions >
+          lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > @babel/generator > lodash
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-11-28T14:12:33.468Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-preset-react-app > @babel/preset-env >
+          @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
