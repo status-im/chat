@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - murmur-client > peer-info > peer-id > async > lodash:
+        patched: '2023-12-19T14:56:17.581Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > peer-info > peer-id > async > lodash
+    - eth-keyring-controller > obs-store > babelify > babel-core > babel-types > lodash:
+        patched: '2023-12-19T14:56:17.581Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          eth-keyring-controller > obs-store > babelify > babel-core >
+          babel-types > lodash
+    - eth-keyring-controller > obs-store > babelify > babel-core > babel-traverse > lodash:
+        patched: '2023-12-19T14:56:17.581Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          eth-keyring-controller > obs-store > babelify > babel-core >
+          babel-traverse > lodash
+    - eth-keyring-controller > obs-store > babelify > babel-core > babel-template > lodash:
+        patched: '2023-12-19T14:56:17.581Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          eth-keyring-controller > obs-store > babelify > babel-core >
+          babel-template > lodash
