@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - murmur-client > libp2p-websocket-star > async > lodash:
+        patched: '2024-03-19T19:09:50.049Z'
+        id: SNYK-JS-LODASH-567746
+        path: murmur-client > libp2p-websocket-star > async > lodash
+    - status-js-api > web3 > web3-shh > web3-utils > lodash:
+        patched: '2024-03-19T19:09:50.049Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-shh > web3-utils > lodash
+    - status-js-api > web3 > web3-eth-personal > web3-core-helpers > lodash:
+        patched: '2024-03-19T19:09:50.049Z'
+        id: SNYK-JS-LODASH-567746
+        path: status-js-api > web3 > web3-eth-personal > web3-core-helpers > lodash
